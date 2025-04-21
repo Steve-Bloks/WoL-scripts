@@ -30,7 +30,7 @@ while true do
     and ev.player.mainHandItem
     and ev.player.mainHandItem.name == stick.name
   then
-    local hit = ev.player:raycastBlock(999)
+    local hit = ev.player:raycastBlock(999999)
     if hit and hit.type == "BLOCK" then
       plantFlowers(hit.blockPos)
     end
