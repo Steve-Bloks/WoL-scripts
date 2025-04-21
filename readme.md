@@ -14,4 +14,4 @@
 ## Load scripts
 - Go in singleplayer and run "/lua require("<script name here>")"
 
--# Note that all these are made for singleplayer, its possible some might not work correctly for multiplayer, or they might not work at all.
+--# Note that all these are made for singleplayer, its possible some might not work correctly for multiplayer, or they might not work at all.
