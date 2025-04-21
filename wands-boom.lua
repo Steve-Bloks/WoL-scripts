@@ -19,7 +19,7 @@ while true do
     and ev.player.mainHandItem
     and ev.player.mainHandItem.name == wand.name
   then
-    local hit = ev.player:raycastBlock(100)
+    local hit = ev.player:raycastBlock(999999)
     if hit and hit.type == "BLOCK" then
       local start = ev.player.eyePos
       local target = hit.blockPos
